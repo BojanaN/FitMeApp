@@ -1,0 +1,47 @@
+header {
+    background-color: #525252;
+    padding: 10px 0;
+}
+
+.section-meal {
+    margin: 100px 0;
+}
+
+.meal-welcome {
+    padding-bottom: 30px;
+    border-bottom: 3px solid gray;
+}
+
+.meal-welcome img {
+    width: 300px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.meal-box img {
+    width: 300px;
+    float: left;
+    margin: 0 50px 20px 0;
+}
+
+.meal-box p {
+    display: block;
+    margin-top: 60px;
+}
+
+.meal-box span,
+.meal-box h1 {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+}
+
+.meal-box {
+    margin: 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 3px solid gray;
+}
+
+.last {
+    border: none;
+}

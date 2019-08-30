@@ -1,0 +1,19 @@
+.section-blog {
+    margin: 100px 0;
+}
+
+.blog-box {
+    padding-bottom: 60px;
+    border-bottom: 3px solid gray;
+}
+
+.blog-box img {
+    width: 400px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.right img {
+    float: right;
+    margin: 0 0 20px 20px;
+}

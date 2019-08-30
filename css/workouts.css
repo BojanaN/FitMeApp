@@ -1,0 +1,26 @@
+.video-box {
+    padding: 40px 0;
+    border-bottom: 3px solid gray;
+}
+
+.video-box video {
+    margin-right: 20px;
+}
+
+.section-lose,
+.section-maintain,
+.section-gain {
+    margin: 100px 0;
+}
+
+.section-lose .heading,
+.section-maintain .heading,
+.section-gain .heading {
+    padding: 30px 0;
+}
+
+.section-lose .sub-heading,
+.section-maintain .sub-heading,
+.section-gain .sub-heading {
+    padding: 30px 0;
+}

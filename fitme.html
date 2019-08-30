@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fitme.css">
+
+    <title>Fit Me</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <div class="logo">
+                        <a href="fitme.html"><img src="images/LOGCE.png"></a>
+                    </div>
+                </div>
+                <div class="col-10">
+                    <div class="nav">
+                        <ul>
+                            <li><a href="fitme.html">Home</a></li>
+                            <li class="workout-programs"><a href="fitme.html#programs">Workout Programs</a>
+                                <div class="submenu">
+                                    <ul>
+                                        <li><a href="workouts.html#lose">Weight Loss</a></li>
+                                        <br class="d-none d-md-block">
+                                        <li><a href="workouts.html#maintain">Maintain</a></li>
+                                        <br class="d-none d-md-block">
+                                        <li><a href="workouts.html#gain">Gain Muscle</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="health-nutrition"><a href="fitme.html#health">Health & Nutrition</a>
+                                <div class="submenu">
+                                    <ul>
+                                        <li><a href="meal-plan.html">Meal Plans</a></li>
+                                        <br class="d-none d-md-block">
+                                        <li><a href="meal-recipes.html">Meal recipes</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="services"><a href="fitme.html#calc">Services</a>
+                                <div class="submenu">
+                                    <ul>
+                                        <li><a href="fitme.html#calc">Calories Calculator</a></li>
+                                        <br class="d-none d-md-block">
+                                        <li><a href="fitme.html#calc">BMI Calculator</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="fitme.html#com">Comunity</a></li>
+                            <li><a href="fitme.html#about">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-welcome" style="background-image: url(images/crossfit-class.jpg);">
+        <div class="container" style="height: 100%;">
+            <div class="row align-items-center" style="height: 100%;">
+                <div class="col">
+                    <div class="banner">
+                        <h1 class="naslov">Accept the challenge</h1>
+                        <h2>Make yourself fit</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-workout">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="workout-row">
+                        <div class="row">
+                            <div class="col-12" id="programs">
+                                <div class="heading">
+                                    <h1>Workout Programs</h1>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="workout-box">
+                                    <h1>Weight Loss</h1>                                  <p>Get your body in...</p>
+                                    <img src="images/weight.jpg">
+                                    <span></span>
+                                    <div class="dropdown">
+                                        <a href="workouts.html#lose-b">Begginer Level</a>                     
+                                        <a href="workouts.html#lose-i">Intermediate Level</a>                
+                                        <a href="workouts.html#lose-a">Advanced Level</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="workout-box">
+                                    <h1>Maintain</h1>
+                                    <p>Get your body in...</p>
+                                    <img src="images/maintain.jpg">
+                                    <span></span>
+                                    <div class="dropdown">
+                                        <a href="workouts.html#maintain-b">Beginer Level</a>                     
+                                        <a href="workouts.html#maintain-i">Intermediate Level</a>                
+                                        <a href="workouts.html#maintain-a">Advanced Level</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="workout-box">
+                                    <h1>Gain Muscle</h1>
+                                    <p>Get your body in...</p>
+                                    <img src="images/gain.jpg">
+                                    <span></span>
+                                    <div class="dropdown">
+                                        <a href="workouts.html#gain-b">Begginer</a>                     
+                                        <a href="workouts.html#gain-i">Intermediate Level</a>                
+                                        <a href="workouts.html#gain-a">Advanced Level</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-health">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="health-row">
+                        <div class="row">
+                            <div class="col-12" id="health">
+                                <div class="heading">
+                                    <h1>Health & Nutrition</h1>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="health-box">
+                                    <h1>Healthy Meals</h1>
+                                    <p>Check out our diets...</p>
+                                    <img src="images/food.jpg">
+                                    <a href="meal-plan.html">See more...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-calculator" id="calc">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="heading">
+                        <h1>Caclculators</h1>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="calorie-calc">
+                        <h3>Calories Caclculator</h3>
+                    
+                        <h4>Age</h4>
+                        <input type="text" class="ageCLC" >
+                    
+                        <h4>Gender</h4>
+                        <select name="gender" class="genderCLC">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        </select>
+                    
+                        <h4>Height</h4>
+                        <input type="text" placeholder="CM" class="heightCLC">
+                    
+                        <h4>Weight</h4>
+                        <input type="text" placeholder="Kg" class="weightCLC">
+                    
+                        <h4>Activity</h4>
+                        <select name="AcitivityLevel" class="activityCLC">
+                        <option value="Basal">Basal Metabolic Rate (BMR)</option>
+                        <option value="Sedentary">Sedentary: Little or no exercise</option>
+                        <option value="Light">Light exercise 1-3 times a week</option>
+                        <option value="Moderate">Moderate 4-5 times a week</option>
+                        <option value="Active">Daily exercise or intense exercise</option>
+                        <option value="Very Active">Intense exercise 6-7 time a week</option>
+                        </select>
+                        <br>
+                        <br>
+                    
+                        <button class="btnCLC" >CALCULATE</button>
+                    
+                    
+                    </div>
+                    
+                    <h3 class="calculated">Calculated Calories:  </h3>
+                    <div id="calc-result">&nbsp;</div>
+                </div>
+                    <div class="col-6">
+                            <div class="bmi-calc">
+                                
+                                    <div>
+                                      <h3>BMI Calculator</h3>
+                                  
+                                      <p>Enter your height: <input type="text" id="height"/>
+                                        <select type="multiple" id="heightunits">
+                                            <option value="metres" selected="selected">metres</option>
+                                            <option value="inches">inches</option>
+                                        </select>
+                                         </p>
+                                    <p>Enter your weight: <input type="text" id="weight"/>
+                                        <select type="multiple" id="weightunits">
+                                            <option value="kg" selected="selected">kilograms</option>
+                                            <option value="lb">pounds</option>
+                                        </select>
+                                    </p>
+                                    <input type="submit" value="computeBMI" onclick="computeBMI();">
+                                    <h1>Your BMI is: <span id="output">?</span></h1>
+                                    
+                                    <h2>This means you are: <span id="comment"> ?</span> </h2> 
+                            
+                                    <!--BMI Categories: 
+                                    Underweight = <18.5
+                                    Normal weight = 18.5–24.9 
+                                    Overweight = 25–29.9 
+                                    Obesity = BMI of 30 or greater 
+                                    This need to be next to the calculator--> 
+                                    </div>
+                                  
+                                      
+                                  
+                                   
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-comunity" id="com">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="heading">
+                        <h1>Comunity</h1>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="login-main">
+                        <div class="switch">
+                            <a href="#section-comunity" id="myBtn1">Log In</a>
+                            <a href="#section-comunity" id="myBtn">Sign Up</a>
+                        </div>
+                        <div class="login-box" id="signUp">
+                            <form>
+                                <label>Username:</label>
+                                <br>
+                                <input>
+                                <br>
+                                <label>Password:</label>
+                                <br>
+                                <input type="password">
+                                <br>
+                                <input type="checkbox">
+                                <label>Keep me Signed in</label>
+                                <br>
+                                <input type="submit" value="Sing in">
+                                <br>
+                                <a href="#">Forgot Password?</a>
+                            </form>
+                        </div>
+                        <div class="signup-box" id="logIn">
+                            <form>
+                                <label>Username:</label>
+                                <br>
+                                <input>
+                                <br>
+                                <label>Email:</label>
+                                <br>
+                                <input>
+                                <br>
+                                <label>Password:</label>
+                                <br>
+                                <input type="password">
+                                <br>
+                                <label>Comfirm Password:</label>
+                                <br>
+                                <input type="password">
+                                <br>
+                                <input type="checkbox">
+                                <label>I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></label>
+                                <br>
+                                <input type="checkbox">
+                                <label>Sign up to our newsletter</label>
+                                <input type="submit" value="Sign up">
+                            </form>
+                            <h1 class="logInTitle">Welcome to FitMe</h1>
+                            <div id="firebaseui-auth-container"></div>
+                            <div id="loader">Loading...</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="blog-box">
+                        <div class="sub-heading">
+                            <h2>Blog Posts</h2>
+                        </div>
+                        <div class="blog-prev">
+                            <img src="images/first-article.jpg">
+                            <h3>The 10 Most Weight-Loss-Friendly Foods on The Planet</h3>
+                            <p>Not all calories are created equal. Different foods go through different metabolic pathways in your body. They can have vastly different effects on your hunger, hormones and the number of calories you burn. Here are the 20 most weight-loss-friendly foods on earth that are supported by science. <a href="blog.html">read more...</a></p>
+                        </div>
+                        <div class="blog-prev">
+                            <img src="images/avocado.jpg">
+                            <h3>Avocado Egg Burger</h3>
+                            <p>There’s just something about an egg burger. The runny yolk and savory taste of beef together feel about as rich and decadent and satisfying as it gets. Add avocado with the typical burger fixings, and you’re looking at the king of keto burgers. This might not become your everyday burger, but we’d call it one of those must-have burger experiences. The fresh tastes, the creamy textures, the sheer audacity of it—few burgers inspire the way this one does.</p>         <div class="blog-prev">
+                            <img src="images/article3.jpg">
+                            <h3>12 Intermittent Fasting Tips for Athletes</h3>
+                            <p>Yesterday, I explained the potential benefits and drawbacks of intermittent fasting for athletes. Maybe yesterday’s post intrigued you. Maybe you’re curious about this whole intermittent fasting thing but don’t want to sacrifice your performance in the gym or on the field. What are my specific recommendations for athletes who wish to explore intermittent fasting? I’ve got twelve…plus some details about my own fasting and workout routine. <a href="blog.html">read more...</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="heading">
+                        <h1>About</h1>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="sub-heading">
+                        <h1>Meet the team</h1>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="team-box">
+                        <img src="images/workout-team.png">
+                        <h4><p>"Our Health & Fitness team have worked with hundreds of members to help them accelerate their results and achieve their goals. Whether you are taking your first steps or would like to progress your current routine, we have the expertise and passion to help you reach your potential".</p></h4>
+                    <p>The best part about being a personal trainer is the smiles on your clients faces when they are seeing progress – when they realize that they can do so much more than they thought possible. We get to see their perspective change, their attitude, their physique, and most of all, we get to see them succeed!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="sub-heading">
+                        <h2>Testimonial from our Clients</h2>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="testamonial-box">
+                        <img src="images/person1.jpg">
+                        <p>The best fitness support for achieving your goals!</p>
+                        <h1>Eric Phillips</h1>
+                        <p>CEO at American Aviation</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="testamonial-box">
+                        <img src="images/person2.jpg">
+                        <p>I know that I can shape my body in couple months!</p>
+                        <h1>Linda Barton</h1>
+                        <p>CEO at Fly Dubai</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="testamonial-box">
+                        <img src="images/person3.jpg">
+                        <p>I have been member since last year and the nutritions plans has helped me a lot to loose weight!</p>
+                        <h1>Carrie Reese</h1>
+                        <p>CEO at Google</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="testamonial-box">
+                        <img src="images/person4.jpg">
+                        <p>It is perfect place to go since I can get help with health and fitness problems that I am curently facing with!</p>
+                        <h1>Helena Ronald</h1>
+                        <p>CEO at Hilton</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="testamonial-box">
+                        <img src="images/person5.jpg">
+                        <p>It is perfect place to go since I can get help with health and fitness problems that I am curently facing with!</p>
+                        <h1>Cordelia Barton</h1>
+                        <p>CEO at Twitter</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="testamonial-box">
+                        <img src="images/person6.jpg">
+                        <p>I know that I can shape my body in couple months!</p>
+                        <h1>Carrie Reese</h1>
+                        <p>CEO at Google</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="footer-box footer-join">
+                        <h3>It's never late to start, join us today!</h3>
+                        <a href="#com"><h1>Join</h1></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-box">
+                        <h3>Contact</h3>
+                        <h5>Address</h5>
+                        <p>CrossFit, Inc. 1250 Connecticut Ave NW Ste 700 Washington DC 20036-2643, USA</p>
+                        <h5>Email</h5>
+                        <p>customerservice@fitme.com</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-box">
+                        <h3>Social</h3>
+                        <ul>
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-instagram"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/login.js" ></script>
+    <script src="fire/fireBase.js"></script>
+    <script src="fire/main.js"></script>
+    <script src="js/calc.js"></script>
+    <script src="js/bmi.js"></script>
+    <script src="js/meal.js"></script>
+
+
+    
+</body>
+</html>
